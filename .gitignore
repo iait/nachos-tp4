@@ -1,0 +1,13 @@
+*.o
+*.s
+*.project
+
+bin/coff2noff
+test/*
+!test/*.c
+!test/*.s
+!test/script
+!test/Makefile
+!test/Makefile.ori
+
+**/nachos
